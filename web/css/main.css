@@ -1,0 +1,50 @@
+
+/*pc´s and big screens */
+@media (min-width: 1200px) {
+}
+
+/* Tablets an medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* Tablets portrait and small desktops*/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/* landscape phones and portrait tablets */
+@media (max-width: 767px) {
+}
+/* landscape pnahones and small devices */
+@media (max-width: 480px) {
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  height:400px;    /* Set slide height here */
+
+}
+@media only screen and (max-width:767px)
+{
+	.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  
+  height:auto;    
+}
+}
+img
+{ 
+	
+	min-width:200px;
+	width:100%;
+}
+div.carousel-inner
+{
+
+  display:inline-block;height:20%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+overflow: hidden;
+}
+
+body
+{
+  background-color: #F0F0F0;
+}
